@@ -1,0 +1,3 @@
+language = "nodejs"
+run = "node index"
+onBoot = "chmod u+x main.sh"

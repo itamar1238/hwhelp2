@@ -1,0 +1,15 @@
+doctype
+html(lang="en")
+    head
+        include includes/header.pug
+    body
+        include includes/navbar.pug
+        .jumbotron.text-center
+            h1.display-3 Press the button below to play the game!
+        .container
+            form
+                input.form-control(type='submit', value=game.l)
+
+        script(src='/uv/uv.bundle.js')
+        script(src='/uv/uv.config.js')
+        script(src='/index.js')

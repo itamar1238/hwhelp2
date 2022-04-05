@@ -1,0 +1,19 @@
+doctype
+html(lang="en")
+    head
+        include includes/header.pug
+    body
+        include includes/navbar.pug
+        .jumbotron.text-center
+            h1.display-3 HwHelp
+            p.lead The proxy site that unblocks everything!
+        .container
+            form
+                input.form-control(type='text', placeholder='Surf the web unblocked!')
+            .text-center
+                p.lead Teacher coming? Press ` to open google classroom!
+
+        script(src='uv/uv.bundle.js')
+        script(src='uv/uv.config.js')
+        script(src='index.js')
+        //- script(src='keyp.js')
